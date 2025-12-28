@@ -27,39 +27,39 @@ Based on your background (you’re already learning full-stack and using React +
 
 **Deep concepts (very important):**
 
-* Execution Context & Call Stack
-* Closures (real use cases)
-* Hoisting (function vs var vs let)
-* Event Loop (Microtasks vs Macrotasks)
-* Promises (chaining, error handling)
-* Async / Await (under the hood)
-* Debounce & Throttle
-* Currying & Composition
-* Memory leaks & performance
+* [Execution Context & Call Stack](./Javascript/context-callstack.md)
+* [Closures (real use cases)](./Javascript/Clousers.md)
+* [Hoisting (function vs var vs let)](./Javascript/Hoisting.md)
+* [Event Loop (Microtasks vs Macrotasks)](./Javascript/Event-loop.md)
+* [Promises (chaining, error handling)](./Javascript/Promises.md)
+* [Async / Await (under the hood)](./Javascript/Asyn-Await.md)
+* [Debounce & Throttle](./Javascript/Debounce-Throttle.md)
+* [Currying & Composition](./Javascript/Currying-Composition.md)
+* [Memory leaks & performance](./Javascript/Memory-leaks_perfomance.md)
 
 **Mini Projects**
 
-* Custom debounce/throttle utility
-* Async API data handler
-* Infinite scroll with JS
+* [Custom debounce/throttle utility](./Javascript/projects/debounce-throttle-utility.md)
+* [Async API data handler](./Javascript/projects/Async-API-data-handler.md)
+* [Infinite scroll with JS](./Javascript/projects/Inifinite-scroll-with-JS.md)
 
 ---
 
 ### 2️⃣ TypeScript (Advanced) (Week 3)
 
-* Type inference & annotations
-* Union / Intersection types
-* Generics (important for React)
-* Utility types (`Partial`, `Pick`, `Omit`)
-* Interfaces vs Types
-* Enums & Literal types
-* Type guards
-* Typing API responses
+* [Type inference & annotations](./typescript/interface-annotations.md)
+* [Union / Intersection types](./typescript/Intersection-types.md)
+* [Generics (important for React)](./typescript/Generics.md)
+* [Utility types (`Partial`, `Pick`, `Omit`)](./typescript/Utility-types.md)
+* [Interfaces vs Types](./typescript/interfaces-vs-types.md)
+* [Enums & Literal types](./typescript/Enums-literal-types.md)
+* [Type guards](./typescript/type-guards.md)
+* [Typing API responses](./typescript/Typing-Api-Responces.md)
 
 **Mini Project**
 
-* Type-safe REST client
-* Convert old JS project → TypeScript
+* [Type-safe REST client](./typescript/Mini-Project/Rest-Client.md)
+* [Convert old JS project → TypeScript](./typescript/Mini-Project/JS-project__Typpescript.md)
 
 ---
 
@@ -67,60 +67,60 @@ Based on your background (you’re already learning full-stack and using React +
 
 ### 3️⃣ React (Advanced) (Week 4–6)
 
-* React rendering process
-* Virtual DOM vs Real DOM
-* Hooks in depth:
+* [React rendering process](./React/Redering-process.md)
+* [Virtual DOM vs Real DOM](./React/virtualDOM-vs-RealDOM.md)
+* [Hooks in depth:](./React/Hooks.md)
 
   * `useMemo`, `useCallback`
   * `useRef`
   * `useReducer`
-* Controlled vs Uncontrolled components
-* Lifting state up
-* Compound components
-* Error Boundaries
-* Code splitting & Lazy loading
-* Performance optimization
-* Custom Hooks
-* Refs & Forward refs
+* [Controlled vs Uncontrolled components](./React/controlled-vs-uncontrolled-components.md)
+* [Lifting state up](./React/lifting-state-up.md)
+* [Compound components](./React/Compound-components.md)
+* [Error Boundaries](./React/Error-Boundaries.md)
+* [Code splitting & Lazy loading](./React/Code-spliting-Lazy-loading.md)
+* [Performance optimization](./React/porformance-optimization.md)
+* [Custom Hooks](./React/Custom-Hooks.md)
+* [Refs & Forward refs](./React/Refs-Forward-refs.md)
 
 **Project**
 
-* Dashboard App (Charts, Tables, Filters)
-* Reusable Component Library
+* [Dashboard App (Charts, Tables, Filters)](./React/projects/Dashboard-app.md)
+* [Reusable Component Library](./React/projects/Reusable-Component-library.md)
 
 ---
 
 ### 4️⃣ Redux (Advanced) (Week 7–8)
 
-* Redux core principles
-* Redux Toolkit
-* Async actions (Thunk)
-* Normalized state
-* Middleware concept
-* Caching & optimistic updates
-* Redux vs Context API
-* Best folder structure
+* [Redux core principles](./Redux/Redux-core-principles.md)
+* [Redux Toolkit](./Redux/Redux-toolkit.md)
+* [Async actions (Thunk)](./Redux/Async-actions.md)
+* [Normalized state](./Redux/normalized-state.md)
+* [Middleware concept](./Redux/middleware-concepts.md)
+* [Caching & optimistic updates](./Redux/cashing-uptimistic-updates.md)
+* [Redux vs Context API](./Redux/Redux-vs-Context-Api.md)
+* [Best folder structure](./Redux/Best-folder-structure.md)
 
 **Project**
 
-* E-commerce cart system
-* Auth + role-based access
+* [E-commerce cart system](./Redux/projects/E-commerce-Chart.md)
+* [Auth + role-based access](./Redux/projects/Auth-role-based-access.md)
 
 ---
 
 ### 5️⃣ Figma → Production UI (Week 9)
 
-* Design systems
-* Auto-layout
-* Component variants
-* Responsive design
-* Handoff to dev
-* Design → Tailwind / CSS
+* [Design systems](./Figma/Design-Systems.md)
+* [Auto-layout](./Figma/Auto-Layout.md)
+* [Component variants](./Figma/Component-variants.md)
+* [Responsive design](./Figma/Responsive-design.md)
+* [Handoff to dev](./Figma/Handoff-dev.md)
+* [Design → Tailwind / CSS](./Figma/Design-thailwindcss.md)
 
 **Project**
 
-* Design full SaaS dashboard
-* Convert Figma → React UI
+* [Design full SaaS dashboard](./Figma/projects/full-stack-SaaS.md)
+* [Convert Figma → React UI](./Figma/projects/Convert-Figma-ReactUI.md)
 
 ---
 
@@ -128,68 +128,68 @@ Based on your background (you’re already learning full-stack and using React +
 
 ### 6️⃣ Backend Core Concepts (Week 10)
 
-* HTTP deeply (headers, status codes)
-* REST principles
-* API versioning
-* Authentication vs Authorization
-* Cookies vs JWT
-* CORS
-* Pagination & filtering
+* [HTTP deeply (headers, status codes)](./Backend-Core/HTTP-deeply.md)
+* [REST principles](./Backend-Core/REST-principles.md)
+* [API versioning](./Backend-Core/API-versioning.md)
+* [Authentication vs Authorization](./Backend-Core/Authentication-vs-Authorisation.md)
+* [Cookies vs JWT](./Backend-Core/Cookies-vs-JWT.md)
+* [CORS](./Backend-Core/CORS.md)
+* [Pagination & filtering](./Backend-Core/Pagination-Filtering.md)
 
 ---
 
 ### 7️⃣ Python + FastAPI (Advanced) (Week 11–14)
 
-* Dependency Injection
-* Pydantic models
-* Async endpoints
-* Background tasks
-* Middleware
-* WebSockets basics
-* File uploads
-* Rate limiting
-* API security
-* OpenAPI docs customization
+* [Dependency Injection](./Python-Fastapi/Dependence-injection.md)
+* [Pydantic models](./Python-Fastapi/Pydantic-models.md)
+* [Async endpoints](./Python-Fastapi/Async-endpoints.md)
+* [Background tasks](./Python-Fastapi/Background-tasks.md)
+* [Middleware](./Python-Fastapi/Middleware.md)
+* [WebSockets basics](./Python-Fastapi/Web-socketso-basics.md)
+* [File uploads](./Python-Fastapi/File-uploades.md)
+* [Rate limiting](./Python-Fastapi/Rate-limiting.md)
+* [API security](./Python-Fastapi/Api-Security.md)
+* [OpenAPI docs customization](./Python-Fastapi/Open-APi-docs.md)
 
 **Project**
 
-* Auth system (JWT + refresh token)
-* Blog API with roles (Admin/User)
+* [Auth system (JWT + refresh token)](./Python-Fastapi/projects/Auth-system.md)
+* [Blog API with roles (Admin/User)](./Python-Fastapi/projects/Blog-Api.md)
 
 ---
 
 ### 8️⃣ Node.js + Express (Advanced) (Week 15–17)
 
-* Event-driven architecture
-* Async patterns
-* MVC vs Clean Architecture
-* Middleware chaining
-* Error handling patterns
-* Authentication
-* File handling
-* Logging
-* Security best practices
+* [Event-driven architecture](./Nodejs-Express/Event-driven-architecture.md)
+* [Async patterns](./Nodejs-Express/Async-patterns.md)
+* [MVC vs Clean Architecture](./Nodejs-Express/MVC-vs-Clean-Architecture.md)
+* [Middleware chaining](./Nodejs-Express/Middleware-chaining.md)
+* [Error handling patterns](./Nodejs-Express/Error-handling-patterns.md)
+* [Authentication](./Nodejs-Express/Authentication.md)
+* [File handling](./Nodejs-Express/File-handling.md)
+* [Logging](./Nodejs-Express/Logging.md)
+* [Security best practices](./Nodejs-Express/Security-best-practices.md)
 
 **Project**
 
-* REST API for product management
-* Payment gateway simulation
+* [REST API for product management](./Nodejs-Express/projects/Restapi-product-manager.md)
+* [Payment gateway simulation](./Nodejs-Express/projects/payment-gateway.md)
 
 ---
 
 ### 9️⃣ RESTful API Design (Week 18)
 
-* Resource modeling
-* API versioning
-* Status codes
-* Pagination standards
-* OpenAPI / Swagger
-* Error formats
-* API documentation
+* [Resource modeling](./Restfull-api/resource-modeling.md)
+* [API versioning](./Restfull-api/Api-versioning.md)
+* [Status codes](./Restfull-api/Status-codes.md)
+* [Pagination standards](./Restfull-api/pagination-standards.md)
+* [OpenAPI / Swagger](./Restfull-api/OpenAI-swagger.md)
+* [Error formats](./Restfull-api/Error-formats.md)
+* [API documentation](./Restfull-api/API-documentation.md)
 
 **Project**
 
-* Design a public API (like GitHub style)
+* [Design a public API (like GitHub style)](./Restfull-api/project/Design-a-public-api.md)
 
 ---
 
@@ -197,25 +197,25 @@ Based on your background (you’re already learning full-stack and using React +
 
 ### 🔹 SQL (MySQL & PostgreSQL)
 
-* Normalization
-* Indexing
-* Joins (deep)
-* Transactions
-* ACID
-* Stored procedures
-* Query optimization
+* [Normalization](./SQL/normalization.md)
+* [Indexing](./SQL/Indexing.md)
+* [Joins (deep)](./SQL/Joins.md)
+* [Transactions](./SQL/Transactions.md)
+* [ACID](./SQL/ACID.md)
+* [Stored procedures](./SQL/stored-procedures.md)
+* [Query optimization](./SQL/query-optimization.md)
 
 ### 🔹 MongoDB
 
-* Schema design
-* Aggregation pipeline
-* Indexes
-* Relations (lookup)
-* When to use NoSQL vs SQL
+* [Schema design](./Mongodb/schema-design.md)
+* [Aggregation pipeline](./Mongodb/Aggregation-pipeline.md)
+* [Indexes ](./Mongodb/Indexes.md)
+* [Relations (lookup)](./Mongodb/Relations.md)
+* [When to use NoSQL vs SQL](./Mongodb/When-to-use-Nosql-vs-Sql.md)
 
 **Project**
 
-* User-Order system using:
+* [User-Order system using:](./Mongodb/projects/user-order.md)
 
   * PostgreSQL (relational)
   * MongoDB (document-based)
@@ -228,14 +228,14 @@ Based on your background (you’re already learning full-stack and using React +
 
 **Jest + React Testing Library**
 
-* Unit vs Integration tests
-* Component testing
-* Mocking API calls
-* User interaction testing
+* [Unit vs Integration tests](./Frontend-Testing/unit-vs-integration-testing.md)
+* [Component testing](./Frontend-Testing/Component-testing.md)
+* [Mocking API calls](./Frontend-Testing/Mocking-API-calls.md)
+* [User interaction testing](./Frontend-Testing/User-interaction-testing.md)
 
 **Project**
 
-* Test login & dashboard UI
+* [Test login & dashboard UI](./Frontend-Testing/project/Test-Login-DashboardUI.md)
 
 ---
 
@@ -243,14 +243,14 @@ Based on your background (you’re already learning full-stack and using React +
 
 **Pytest**
 
-* Unit tests
-* API endpoint testing
-* Database mocking
-* Test coverage
+* [Unit tests](./Backend-Testing/unit-tests.md)
+* [API endpoint testing](./Backend-Testing/API-endpoint-testing.md)
+* [Database mocking](./Backend-Testing/Database-mocking.md)
+* [Test coverage](./Backend-Testing/Test-coverage.md)
 
 **Project**
 
-* Test FastAPI endpoints
+* [Test FastAPI endpoints](./Backend-Testing/Project-Test-FastAPI-endpoints.md)
 
 ---
 
@@ -260,6 +260,7 @@ Based on your background (you’re already learning full-stack and using React +
 
 **Features**
 
+* [Full-Stack SaaS Application](./Full-Stack-SaaS-App/README.md)
 * React + TypeScript frontend
 * Redux for state
 * Figma-based UI
